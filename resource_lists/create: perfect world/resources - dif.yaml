@@ -3,6 +3,7 @@ authors:
   Asher: "https://aglick.com"
   Kevin: "kroden3d@gmail.com"
   Marc: "https://github.com/mmodrow"
+  Theo: "minthumbug7+Create@gmail.com" #<-- ask me about stuff and offer help
 
 index_page_display_name: "Minecraft - Create: Perfect World"
 
@@ -1255,7 +1256,87 @@ resources:
       requirements:
         Pointed Dripstone: -4
 
+    Basalt:
+    recipes:
+    - recipe_type: Raw Resource
+
+    Blackstone:
+    recipes:
+    - recipe_type: Raw Resource
+
   #    -->  POLISHED Stone-y Stuff  <--
+
+    Polished Granite:
+    recipes:
+    - output: 1
+      recipe_type: Cutting
+      requirements:
+        Granite: -1
+    - output: 4
+      recipe_type: Crafting
+      requirements:
+        Granite: -4
+    - recipe_type: Raw Resource
+
+  Polished Diorite:
+    recipes:
+    - output: 1
+      recipe_type: Cutting
+      requirements:
+        Diorite: -1
+    - output: 4
+      recipe_type: Crafting
+      requirements:
+        Diorite: -4
+    - recipe_type: Raw Resource
+
+  Polished Andesite:
+    recipes:
+    - output: 1
+      recipe_type: Cutting
+      requirements:
+        Andesite: -1
+    - output: 4
+      recipe_type: Crafting
+      requirements:
+        Andesite: -4
+    - recipe_type: Raw Resource
+
+  Polished Deepslate:
+    recipes:
+    - output: 1
+      recipe_type: Cutting
+      requirements:
+        Cobbled Deepslate: -1
+    - output: 4
+      recipe_type: Crafting
+      requirements:
+        Cobbled Deepslate: -4
+    - recipe_type: Raw Resource
+
+  Polished Basalt:
+    recipes:
+    - output: 1
+      recipe_type: Cutting
+      requirements:
+        Basalt: -1
+    - output: 4
+      recipe_type: Crafting
+      requirements:
+        Basalt: -4
+    - recipe_type: Raw Resource
+
+  Polished Blackstone:
+    recipes:
+    - output: 1
+      recipe_type: Cutting
+      requirements:
+        Blackstone: -1
+    - output: 4
+      recipe_type: Crafting
+      requirements:
+        Blackstone: -4
+    - recipe_type: Raw Resource
 
   #    -->  End of POLISHED Stone-y Stuff  <--
 
@@ -3438,22 +3519,6 @@ resources:
 
   Soul Sand:
     recipes:
-    - recipe_type: Raw Resource
-
-  Basalt:
-    recipes:
-    - recipe_type: Raw Resource
-
-  Polished Basalt:
-    recipes:
-    - output: 1
-      recipe_type: Cutting
-      requirements:
-        Basalt: -1
-    - output: 4
-      recipe_type: Crafting
-      requirements:
-        Basalt: -4
     - recipe_type: Raw Resource
 
   Smooth Basalt:
@@ -9898,10 +9963,6 @@ resources:
     recipes:
     - recipe_type: Raw Resource
 
-  Blackstone:
-    recipes:
-    - recipe_type: Raw Resource
-
   Blackstone Slab:
     recipes:
     - output: 2
@@ -9928,18 +9989,6 @@ resources:
 
   Gilded Blackstone:
     recipes:
-    - recipe_type: Raw Resource
-
-  Polished Blackstone:
-    recipes:
-    - output: 1
-      recipe_type: Cutting
-      requirements:
-        Blackstone: -1
-    - output: 4
-      recipe_type: Crafting
-      requirements:
-        Blackstone: -4
     - recipe_type: Raw Resource
 
   Polished Blackstone Slab:
