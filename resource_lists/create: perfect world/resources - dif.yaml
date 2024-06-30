@@ -1194,18 +1194,6 @@ resources:
         Diorite: -1
         Nether Quartz: -1
 
-  Polished Granite:
-    recipes:
-    - output: 1
-      recipe_type: Cutting
-      requirements:
-        Granite: -1
-    - output: 4
-      recipe_type: Crafting
-      requirements:
-        Granite: -4
-    - recipe_type: Raw Resource
-
   Diorite:
     recipes:
     - recipe_type: Raw Resource
@@ -1221,18 +1209,6 @@ resources:
         Flint: -2
         Lava: -100
         Power: -1
-
-  Polished Diorite:
-    recipes:
-    - output: 1
-      recipe_type: Cutting
-      requirements:
-        Diorite: -1
-    - output: 4
-      recipe_type: Crafting
-      requirements:
-        Diorite: -4
-    - recipe_type: Raw Resource
 
   Andesite:
     recipes:
@@ -1250,18 +1226,6 @@ resources:
         Gravel: -1
         Power: -1
 
-  Polished Andesite:
-    recipes:
-    - output: 1
-      recipe_type: Cutting
-      requirements:
-        Andesite: -1
-    - output: 4
-      recipe_type: Crafting
-      requirements:
-        Andesite: -4
-    - recipe_type: Raw Resource
-
   Deepslate:
     recipes:
     - recipe_type: Raw Resource
@@ -1273,18 +1237,6 @@ resources:
 
   Cobbled Deepslate:
     recipes:
-    - recipe_type: Raw Resource
-
-  Polished Deepslate:
-    recipes:
-    - output: 1
-      recipe_type: Cutting
-      requirements:
-        Cobbled Deepslate: -1
-    - output: 4
-      recipe_type: Crafting
-      requirements:
-        Cobbled Deepslate: -4
     - recipe_type: Raw Resource
 
   Calcite:
@@ -1302,6 +1254,12 @@ resources:
       recipe_type: Crafting
       requirements:
         Pointed Dripstone: -4
+
+  #    -->  POLISHED Stone-y Stuff  <--
+
+  #    -->  End of POLISHED Stone-y Stuff  <--
+
+  #    -->  End of Stone-y Stuff  <--
 
   Grass Block:
     recipes:
